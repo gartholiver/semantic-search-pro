@@ -1,0 +1,56 @@
+.ssp-search {
+	max-width: 48rem;
+}
+
+.ssp-search__form {
+	display: flex;
+	gap: 0.5rem;
+	margin-bottom: 1rem;
+}
+
+.ssp-search__input {
+	flex: 1 1 auto;
+	min-width: 0;
+	padding: 0.75rem 0.875rem;
+}
+
+.ssp-search__button {
+	flex: 0 0 auto;
+	padding: 0.75rem 1rem;
+}
+
+.ssp-search__status {
+	margin: 0.5rem 0;
+}
+
+.ssp-search__results {
+	display: grid;
+	gap: 1rem;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.ssp-search__result {
+	border-top: 1px solid currentColor;
+	padding-top: 1rem;
+}
+
+.ssp-search__result-title {
+	font-weight: 700;
+}
+
+.ssp-search__excerpt {
+	margin: 0.25rem 0 0;
+}
+
+@media (max-width: 600px) {
+	.ssp-search__form {
+		display: block;
+	}
+
+	.ssp-search__button {
+		margin-top: 0.5rem;
+		width: 100%;
+	}
+}
